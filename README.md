@@ -13,3 +13,5 @@ Completed dates are skipped. Partial imports are resumed using chunk identifiers
 ## Data and rights
 
 No production price archive, partner agreement, email correspondence, database identifier or authentication value is included. The collector does not grant rights to Card Kingdom data or Wizards of the Coast intellectual property. Anyone using it must arrange their own applicable permissions and receiving service.
+
+The receiving service stores changed prices, stock and condition offers only, and reconstructs unchanged observed days for charts. Daily product membership preserves removals. Completion logs report observed products and changed snapshots; no raw feed is published.
