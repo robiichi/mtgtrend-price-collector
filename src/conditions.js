@@ -1,0 +1,1 @@
+export function conditions(row){return ['nm','ex','vg','g'].flatMap(condition=>{const price=Number(row.condition_values?.[condition+'_price']),stock=Number(row.condition_values?.[condition+'_qty']);return Number.isFinite(price)&&price>0&&Number.isInteger(stock)&&stock>=0?[{condition,price_cents:Math.round(price*100),stock}]:[];});}

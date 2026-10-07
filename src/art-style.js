@@ -1,0 +1,1 @@
+export function artStyle(variation){const text=String(variation||'');if(/extended[ -]?art/i.test(text))return 'extended';if(/borderless|showcase|retro[ -]?frame|full[ -]?art|alternate[ -]?art|schematic|textless|serialized|oversized|art series/i.test(text))return 'special';return 'standard';}

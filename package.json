@@ -1,0 +1,1 @@
+{"name":"mtgtrend-price-collector","private":true,"type":"module","scripts":{"collect":"node scripts/collect.mjs"}}
