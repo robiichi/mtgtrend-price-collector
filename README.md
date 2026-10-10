@@ -2,7 +2,7 @@
 
 Fetches the official Card Kingdom v2 price list and sends authenticated chunks to the MTG Trend import endpoint. The site application and database remain in a separate private project.
 
-Runs daily at 08:30 Japan time (23:30 UTC). GitHub scheduled runs can be delayed. Manual runs are available through Actions. This project does not implement hourly updates.
+Runs daily at 00:00 UTC (09:00 Japan time). Snapshot dates use UTC; the actual observation timestamp is sent separately to the receiving service. GitHub scheduled runs can be delayed. Manual runs are available through Actions. This project does not implement hourly updates.
 
 ## Configuration
 
